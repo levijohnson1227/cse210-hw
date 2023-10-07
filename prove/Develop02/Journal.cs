@@ -12,7 +12,7 @@ class Journal
         {
             Console.WriteLine($"Date: {entry.DateTime}");
             Console.WriteLine($"Prompt: {entry.Prompt}");
-            Console.WriteLine($"Response: {entry.Content}");
+            Console.WriteLine($"Content: {entry.Content}");
             Console.WriteLine();
         }
     }
@@ -26,13 +26,10 @@ class Journal
                 {
                     outputFile.WriteLine($"Date: {entry.DateTime}");
                     outputFile.WriteLine($"Prompt: {entry.Prompt}");
-                    outputFile.WriteLine($"Response: {entry.Content}");
+                    outputFile.WriteLine($"Content: {entry.Content}");
                     outputFile.WriteLine();
                 } 
         }
-
-
-
     }
 
     public void LoadJournal(string fileName)
