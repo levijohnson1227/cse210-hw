@@ -1,0 +1,4 @@
+100
+Simple Goal | this is a test | to see if it returns correctly | 100 
+Checklist Goal | this is another test | amazing a checklist goal | 100 | 2 | 1000 | 0
+Eternal Goal | final eternal goal | wow great goal | 100 | 0 
